@@ -1,7 +1,7 @@
 from PyPDF2 import PdfReader, PdfWriter, PageObject
 
 files = [
-    ["/Users/osamukigoshi/Library/Mobile Documents/com~apple~CloudDocs/Downloads", "0919_German_Handout"],
+    ["path to the directory which contains the pdf file","PDF title (without suffix: .pdf)"],
 ]
 
 def split_pdf(input_pdf, output_pdf):
