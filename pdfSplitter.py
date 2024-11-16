@@ -1,7 +1,7 @@
 from PyPDF2 import PdfReader, PdfWriter, PageObject
 
 files = [
-    ["/Users/osamukigoshi/Library/Mobile Documents/com~apple~CloudDocs/Downloads","crop_[Week 2]贈答・交換・互換性"],
+    ["path to the directory which contains the pdf file","PDF title (without suffix: .pdf)"],
     ]
 
 def split_pdf(input_pdf, output_pdf):
